@@ -10,10 +10,10 @@ emails = {
 }
 song_folder_path = ''# Like "D:\\SongFolder"
 music_folder_path = ''# Like "D:\\MusicFolder"
-Chrome_Path = ''# Like "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
-Visual_Studio_Code_Path = ''# Like "C:\Users\Hanzla\AppData\Local\Programs\Microsoft VS Code\Code.exe"
-VLC_Path = ''# Like "C:\Program Files\VideoLAN\VLC\vlc.exe"
-Everything_Path = ''# Like "C:\Program Files\Everything\Everything.exe"
+Chrome_Path = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'# Like "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+Visual_Studio_Code_Path = 'C:\\Users\\Hanzla\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe' # Like "C:\Users\Hanzla\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+VLC_Path = 'C:\\Program Files\\VideoLAN\\VLC\\vlc.exe'# Like "C:\Program Files\VideoLAN\VLC\vlc.exe"
+Everything_Path = 'C:\\Program Files\\Everything\\Everything.exe'# Like "C:\Program Files\Everything\Everything.exe"
 
 
 def exit():
@@ -56,8 +56,8 @@ def Task_exe():
     if __name__ == "__main__" :   
         wishme()
         while True:
-            query = input("Enter the command")
-            # query = Listen().lower()
+            # query = input("Enter the command")
+            query = Listen().lower()
             if 'open youtube' in  query:
                 import webbrowser
                 webbrowser.open('youtube.com')
