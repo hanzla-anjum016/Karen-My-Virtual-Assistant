@@ -7,4 +7,4 @@ copy your music directory path and paste it in main.py file
 copy your chrome directory path and paste it in main.py file
 copy your visual studio code path and paste it in main.py file
 copy your vlc path and paste it in main.py file
-copy you everything path and paste in main.py file
+copy your Search everything path and paste in main.py file
